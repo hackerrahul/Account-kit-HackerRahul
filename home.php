@@ -1,3 +1,8 @@
+<?php
+    if($_GET['access_token']==""){
+        header('Location:index.php');
+    }
+?>
 <html>
 	<head>
 		<title>Account kit By Facebook - HackerRahul</title>
